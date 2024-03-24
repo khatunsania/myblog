@@ -8,7 +8,7 @@ const Hero = () => {
 			<div className="w-[70%] m-auto py-40 lg:flex lg:justify-between md:block ">
 				<div className="lg:w-[40%] md:w-[100%] w-[100%]">
 					<h3 className="text-xl text-[#fff] py-4 ">By sania khatun</h3>
-					<h1 className="text-5xl  w-[100%]  leading-tight text-[#fff] ">
+					<h1 className="text-5xl  w-[100%]  leading-tight text-[#fff] font-bold ">
 						The best website tamplate layout for your buisness
 					</h1>
 					<p className="text-2xl text-[#fff] py-5 md:w-[100%]">
