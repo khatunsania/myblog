@@ -34,7 +34,7 @@ const Hero = () => {
 					<div>
 						<img
 							className="w-[100%] h-[400px] rounded-lg object-cover "
-							src="/public/img/6-1.jpg"
+							src="/img/6-1.jpg"
 							alt=""
 						/>
 					</div>
