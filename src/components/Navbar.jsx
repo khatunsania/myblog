@@ -4,7 +4,7 @@ const Navbar = () => {
 	return (
 		<>
 			<div className="w-full mt-[30px] mb-[30px]">
-				<div className="w-[70%] m-auto flex justify-between md:justify-between lg:justify-arround items-center px-5">
+				<div className="w-[70%] m-auto flex justify-between md:justify-between lg:justify-arround items-center lg:px-5 ">
 					<div className="w-[35%]">
 						<img
 							src="https://bunzo.vuejstemplate.com/images/logo/logo.png"
