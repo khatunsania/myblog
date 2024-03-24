@@ -10,11 +10,11 @@ const Acard = () => {
 					<div className="lg:w-[90%] md:w-[90%] sm:w-[100%] m-auto">
 						<img
 							className="w-[100%] h-[200px] rounded-lg object-cover"
-							src="/src/assets/6-1.jpg"
+							src="/img/1-2.jpg"
 							alt=""
 						/>
 						<ul className="flex ">
-							<li className="bg-[#edebf5] py-[5px] lg:px-8 md:px-8 px-3 rounded-md mt-3 text-[#606587] mr-3 lg:text-lg md:text-[15px] sm:text-[12px] text-[10px]">javascript</li>
+							<li className="bg-[#edebf5] py-[5px] lg:px-8 md:px-8 px-3 rounded-md mt-3 text-[#606587] mr-3 lg:text-lg md:text-[15px] sm:text-[12px] text-[10px] cursor-pointer hover:text-[#ffffff] hover:bg-[#250c83]">javascript</li>
 							<li className="mt-3 text-[#606587] text-lg md:text-[15px] sm:text-[12px] text-[9px]">By sania khatun</li>
 						</ul>
 						<h2 className="py-3 lg:text-[27px] md:text-[20px] sm:text-[24px] text-[15px] text-[#311a89] font-bold lg:px-2 w-[98%] m-auto">The best website template layout for your business</h2>
