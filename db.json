@@ -1,0 +1,70 @@
+{
+    "article": [
+        {
+            "id": "1",
+            "title": "The best website template layout for your business",
+            "description": "You need to be sure there isn’t anything embarrassing hidden in the middle of text",
+            "image": "https://vue.thethemedemo.com/bunzo/wp-content/uploads/2022/04/6-1.jpg",
+            "authorId": "123",
+            "authorName": "sania khatun",
+            "post": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
+            "createdAt": "25 Mar,2024",
+            "tags": "Javascript"
+        },
+        {
+            "id": "2",
+            "title": "How to optimize your website's performance",
+            "description": "Learn the best practices for improving your website's speed and responsiveness.",
+            "image": "https://vue.thethemedemo.com/bunzo/wp-content/uploads/2022/04/1-2.jpg",
+            "authorId": "456",
+            "authorName": "John Doe",
+            "post": "In today's digital age, having a fast and responsive website is crucial for retaining visitors and maximizing conversions. This post explores various techniques and tools you can use to optimize your website's performance, including image compression, minification of CSS and JavaScript files, leveraging browser caching, and utilizing content delivery networks (CDNs). By implementing these strategies, you can ensure that your website loads quickly and provides an excellent user experience for your audience.",
+            "createdAt": "26 Mar, 2024",
+            "tags": "Magento"
+        },
+        {
+            "id": "3",
+            "title": "The importance of user experience in web design",
+            "description": "Discover why user experience is a critical aspect of successful web design.",
+            "image": "https://vue.thethemedemo.com/bunzo/wp-content/uploads/2022/04/2-1.jpg",
+            "authorId": "789",
+            "authorName": "Emily Smith",
+            "post": "User experience (UX) plays a crucial role in determining the success of a website. It encompasses everything from the layout and navigation to the content and interactivity. In this post, we'll explore why UX is essential for web design and how it impacts factors such as user engagement, conversion rates, and brand perception. By prioritizing user experience in your web design process, you can create websites that are intuitive, enjoyable to use, and ultimately more effective in achieving your business goals.",
+            "createdAt": "27 Mar, 2024",
+            "tags": "javascript"
+        },
+        {
+            "id": "4",
+            "title": "10 essential JavaScript libraries for web developers",
+            "description": "Explore popular JavaScript libraries that can streamline your development process.",
+            "image": "https://vue.thethemedemo.com/bunzo/wp-content/uploads/2022/04/7.jpg",
+            "authorId": "101",
+            "authorName": "Michael Johnson",
+            "post": "JavaScript libraries can significantly enhance your productivity as a web developer by providing pre-written code and utilities for common tasks. In this post, we'll highlight 10 essential JavaScript libraries that every web developer should be familiar with. From jQuery for DOM manipulation to React for building dynamic user interfaces, these libraries cover a wide range of functionalities and can help you build better websites more efficiently.",
+            "createdAt": "28 Mar, 2024",
+            "tags": "Wordpress"
+        },
+        {
+            "id": "5",
+            "title": "Building responsive layouts with CSS Grid and Flexbox",
+            "description": "Learn how to create flexible and adaptive layouts using modern CSS techniques.",
+            "image": "https://vue.thethemedemo.com/bunzo/wp-content/uploads/2022/04/9.jpg",
+            "authorId": "202",
+            "authorName": "Sarah Brown",
+            "post": "With the increasing variety of devices and screen sizes used to access the web, building responsive layouts has become essential for modern web development. CSS Grid and Flexbox are two powerful tools that enable developers to create dynamic and responsive designs with ease. In this post, we'll explore how to use CSS Grid and Flexbox to build flexible and adaptive layouts that automatically adjust to different viewport sizes. By mastering these modern CSS techniques, you can ensure that your websites look great and perform well on any device.",
+            "createdAt": "29 Mar, 2024",
+            "tags": "Design"
+        },
+        {
+            "id": "6",
+            "title": "Mastering SEO: Tips for improving your website's search rankings",
+            "description": "Unlock the secrets to optimizing your website for better search engine visibility.",
+            "image": "https://vue.thethemedemo.com/bunzo/wp-content/uploads/2022/04/14-1.jpg",
+            "authorId": "555",
+            "authorName": "Alexandra Lee",
+            "post": "Search engine optimization (SEO) is crucial for ensuring that your website ranks well in search engine results pages (SERPs) and attracts organic traffic. In this comprehensive guide, we'll cover everything you need to know to master SEO and improve your website's search rankings. From keyword research and on-page optimization to link building and technical SEO, we'll provide actionable tips and best practices that you can implement to boost your website's visibility and drive more traffic from search engines.",
+            "createdAt": "30 Mar, 2024",
+            "tags": "SEO, Digital Marketing, Search Engine Optimization"
+        }
+    ]
+}
