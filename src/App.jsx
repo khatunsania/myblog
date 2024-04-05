@@ -1,17 +1,20 @@
 import React, { useState } from "react";
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Articals from "./components/Articals";
+import Details from "./Pages/Details";
 import Footer from "./components/Footer";
-
+import { Routes, Route } from "react-router-dom";
+import Home from "./Pages/Home";
 const App = () => {
 	return (
 		<>
 			<Navbar />
-			<Hero />
-			<Articals />
-			<Footer/>
-	
+			<Routes>
+				<Route path="/" element={<Home />} />
+				<Route path="/details" element={<Details />} />
+
+			</Routes>
+
+			<Footer />
 		</>
 	);
 };
