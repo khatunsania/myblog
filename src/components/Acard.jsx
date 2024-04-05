@@ -1,17 +1,21 @@
 import React from "react";
 import { CalendarDays } from "lucide-react";
 import { Clock } from "lucide-react";
-
+import { Link } from "react-router-dom";
 const Acard = ({ item }) => {
 	return (
 		<>
 			<div className="w-[100%]">
 				<div className="lg:w-[90%] md:w-[90%] sm:w-[100%] m-auto">
+					<Link to={`/details/${item?.id}`}>
+						
 					<img
 						className="w-[100%] h-[200px] rounded-lg object-cover"
 						src={item?.image}
 						alt=""
 					/>
+					</Link>
+
 					<ul className="flex ">
 						<li className="bg-[#edebf5] py-[5px] lg:px-8 md:px-8 px-3 rounded-md mt-3 text-[#606587] mr-3 lg:text-lg md:text-[15px] sm:text-[12px] text-[10px] cursor-pointer hover:text-[#ffffff] hover:bg-[#250c83]">
 							{item?.tags}
