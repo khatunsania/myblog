@@ -1,5 +1,5 @@
 import React from "react";
-
+import Navbar from "../components/Navbar";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
@@ -21,6 +21,7 @@ const Details = () => {
 	return (
 		<>
 			<div>
+				<Navbar/>
 				<div className="w-[70%] m-auto mt-20">
 					<ul className="w-[35%] m-auto flex">
 						<li className="mr-5">by {blog?.authorName} </li>

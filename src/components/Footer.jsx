@@ -7,7 +7,7 @@ const Footer = () => {
   return (
    <>
  <div className='bg-[#250c83] w-[100%] py-10'>
-    <div className='w-[70%] m-auto grid lg:grid-cols-4 md:grid-cols-2 ' >
+    <div className='w-[68%] m-auto grid lg:grid-cols-4 md:grid-cols-2 ' >
         <div className='text-center lg:text-left md:text-left '>
             <p className='text-[#fff] text-lg font-semibold mb-8'>Subscribe</p>
             <div className='my-3'>
