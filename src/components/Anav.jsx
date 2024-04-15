@@ -3,10 +3,10 @@ import React from 'react'
 const Anav = () => {
   return (
     <>
-    <div className='w-[80%] m-auto flex justify-between py-5 bg-[#fff]'>
+    <div className='w-[90%] m-auto  flex justify-between py-6 bg-[#fff]'>
         <div>
-          <span className='mr-3 text-[#63738b]'><i class="fa-solid fa-magnifying-glass"></i></span>
-            <input type="text" placeholder='Type a search' />
+          <span className='mr-3 text-[#63738b]'><i class="fa-solid fa-magnifying-glass pl-4"></i></span>
+            <input  type="text" placeholder='Type a search' />
         </div>
         <div>
             <ul className='flex'>

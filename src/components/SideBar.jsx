@@ -5,7 +5,7 @@ const SideBar = () => {
 		<>
 			<div className="w-[15%]  bg-[#1c2434] h-[100vh]">
 				<div className="w-[70%] m-auto">
-					<h2 className="text-3xl text-[#dee4d3]  py-5 pb-20 align-center">
+					<h2 className="text-3xl text-[#dee4d3]  py-7 pb-20 align-center ">
 						<span className="mr-2 text-2xl rounded-[50%] border border-[#fff] px-1.5">
 							<i class="fa-solid fa-user"></i>
 						</span>

@@ -66,5 +66,11 @@
             "createdAt": "30 Mar, 2024",
             "tags": "Design"
         }
+    ],
+    "user":[
+        {
+            "email": "khatunsania403@gmail.com",
+            "password": "@sania221"
+        }
     ]
 }
