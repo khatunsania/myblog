@@ -1,9 +1,10 @@
 import React from "react";
 import { CalendarDays } from "lucide-react";
 import { Clock } from "lucide-react";
-
-const AdminCard = ({item}) => {
-
+import Edit from "./Edit";
+import { Link } from "react-router-dom";
+import Post from "./Post";
+const AdminCard = ({ item, delpost }) => {
 	return (
 		<>
 			<div>
@@ -22,10 +23,10 @@ const AdminCard = ({item}) => {
 						</li>
 					</ul>
 					<h2 className="py-3 lg:text-[27px] md:text-[20px] sm:text-[24px] text-[15px] text-[#311a89] font-bold lg:px-2 w-[98%] m-auto">
-					{item?.title}
+						{item?.title}
 					</h2>
 					<h1 className="text-[#596066] text-[17px] px-3 w-[100%]">
-					{item?.description}
+						{item?.description}
 					</h1>
 					<ul className="flex justify-arround py-3 px-2 pb-6 w-[100%]">
 						<li className="flex pr-5 text-[#596066] align-center">
@@ -43,11 +44,14 @@ const AdminCard = ({item}) => {
 						</li>
 					</ul>
 					<ul className="flex justify-between w-[90%] m-auto">
+						<Link to={`/edit/${item?.id} `}>
+							<li className="bg-[#e2e8f0] px-5 py-1 text-[#63738b] rounded-md">
+								<i class="fa-regular fa-pen-to-square"></i>
+							</li>
+						</Link>
+
 						<li className="bg-[#e2e8f0] px-5 py-1 text-[#63738b] rounded-md">
-							<i class="fa-regular fa-pen-to-square"></i>
-						</li>
-						<li className="bg-[#e2e8f0] px-5 py-1 text-[#63738b] rounded-md">
-							<i class="fa-solid fa-trash"></i>
+							<i class="fa-solid fa-trash" onClick={() => delblog(item?.id)}></i>
 						</li>
 					</ul>
 				</div>

@@ -3,7 +3,7 @@ import SideBar from "./SideBar";
 import Anav from "./Anav";
 import AdminCard from "./AdminCard";
 import { useState, useEffect } from "react";
-import  axios  from "axios";
+import axios from "axios";
 const Post = () => {
 	const [blog, setBlog] = useState([]);
 	async function getBlog() {
@@ -14,6 +14,13 @@ const Post = () => {
 	useEffect(function () {
 		getBlog();
 	}, []);
+
+	async function delpost(id) {
+		await axios.delete(`http://localhost:3000/article/${id}`, blog);
+		alert("post deleted");
+		setBlog(blog.filter((item) => item?.id !== id));
+	};
+
 	return (
 		<>
 			<div className="flex ">
@@ -24,10 +31,9 @@ const Post = () => {
 						<div className="grid grid-cols-2 w-[90%] m-auto pt-10">
 							{blog?.map((item, index) => (
 								<>
-									<AdminCard item={item} />
+									<AdminCard item={item} delblog={delpost} />
 								</>
 							))}
-					
 						</div>
 					</div>
 				</div>

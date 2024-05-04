@@ -1,5 +1,7 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
+import Admin from "../Pages/Admin";
+import Addpost from "./Addpost";
 const SideBar = () => {
 	return (
 		<>
@@ -11,12 +13,23 @@ const SideBar = () => {
 						</span>
 						Admin
 					</h2>
+					<Link to={"/admin"}>
 					<p className="text-[#dee4d3]  text-base ">
-            <span className="mr-2"><i class="fa-solid fa-pager"></i></span>
-            Post</p>
+				
+				<span className="mr-2"><i class="fa-solid fa-pager"></i></span>
+	Post</p>
+					</Link>
+					
+			
+					
+					<Link to={"/add/post"}>
 					<p className="text-[#dee4d3]  text-base  py-3">
-            <span className="mr-2"><i class="fa-solid fa-plus"></i></span>
-            AddPost</p>
+						
+						<span className="mr-2"><i class="fa-solid fa-plus"></i></span>
+						AddPost</p>
+					</Link>
+       
+				
 					<p className="text-[#dee4d3]  text-base  ">
             <span className="mr-2"><i class="fa-regular fa-comment"></i></span>
             Comments</p>
