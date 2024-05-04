@@ -2,7 +2,16 @@ import React from "react";
 import { SquareMenu } from "lucide-react";
 import { Link } from "react-router-dom";
 import Login from "../Pages/Login";
+import { useEffect, useState } from "react";
 const Navbar = () => {
+	const [user, setuser] = useState(false);
+	useEffect(function () {
+		const data = localStorage.getItem("user");
+		if (data) {
+			setuser(true);
+		}
+	}, []);
+
 	return (
 		<>
 			<div className="w-full mt-[30px] mb-[30px]">
@@ -22,11 +31,29 @@ const Navbar = () => {
 						<SquareMenu className="lg:hidden md:block  " />
 					</div>
 					<div className="w-[12%]">
-						<Link to={"/login"}>
-							<button className="border-2 border-[#311a89] px-10 py-2 rounded-full text-[#311a89] font-semibold">
+						{
+							user?(
+                             <>
+							 	<Link to={"/admin"}>
+							<button  className="border-2 border-[#311a89] px-10 py-2 rounded-full text-[#311a89] font-semibold">
+								Admin
+							</button>
+						</Link>
+							 </>
+
+							):(
+                            <>
+							<Link to={"/login"}>
+							<button  className="border-2 border-[#311a89] px-10 py-2 rounded-full text-[#311a89] font-semibold">
 								Log in
 							</button>
 						</Link>
+								
+							</>
+
+							)
+						}
+					
 					</div>
 				</div>
 			</div>

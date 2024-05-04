@@ -37,7 +37,7 @@ const Edit = () => {
 	async function addblog() {
 		try {
 			await axios.put(`http://localhost:3000/article/${params.id}`,blog);
-			navigate=("/admin")
+			navigate("/admin")
 		} catch (error) {
 			console.log(error);
 		}

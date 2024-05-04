@@ -3,6 +3,10 @@ import { Link } from "react-router-dom";
 import Admin from "../Pages/Admin";
 import Addpost from "./Addpost";
 const SideBar = () => {
+	function logout() {
+		localStorage.clear();
+		Navigate("/")
+	}
 	return (
 		<>
 			<div className="w-[15%]  bg-[#1c2434] h-[100vh]">
@@ -34,7 +38,7 @@ const SideBar = () => {
             <span className="mr-2"><i class="fa-regular fa-comment"></i></span>
             Comments</p>
 					<p className="text-[#dee4d3]  text-base py-3  ">
-            <span className="mr-2"><i class="fa-solid fa-right-from-bracket"></i></span>
+            <span onClick={logout} className="mr-2"><i  class="fa-solid fa-right-from-bracket"></i></span>
             Log out</p>
 				</div>
 			</div>

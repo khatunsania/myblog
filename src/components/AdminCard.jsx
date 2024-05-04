@@ -4,7 +4,7 @@ import { Clock } from "lucide-react";
 import Edit from "./Edit";
 import { Link } from "react-router-dom";
 import Post from "./Post";
-const AdminCard = ({ item, delpost }) => {
+const AdminCard = ({ item, delblog }) => {
 	return (
 		<>
 			<div>
